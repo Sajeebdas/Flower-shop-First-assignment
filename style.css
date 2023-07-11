@@ -1,0 +1,205 @@
+/* header-section */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    width: 100%;
+    height:400px;
+    background-color: rgb(235, 191, 198);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.background-text{
+    padding: 20px;
+    margin: 20px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+.Button{
+    margin-top: 40px;
+    background-color: rgb(224, 177, 224);
+    border: 1px solid black;
+    border-radius:20px 20px;
+    color: white;
+    padding: 10px;
+    font-weight:600;
+}
+.Button:hover{
+    color: rgb(10, 5, 1);
+    cursor: pointer;
+}
+/* heac-section-end */
+
+/* main-section-start */
+.flowers-service{
+    width: 100%;
+    height: 100vh;
+}
+h4{
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgb(78, 76, 76);
+}
+.service-text{
+    margin: 40px;
+    padding: 20px;
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+}
+/* flower-section */
+.flowers{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+.flowers-1{
+    background-color: pink;
+    border-radius: 250px 250px 0px 0px;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px #272727;
+}
+.flowers-2{
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 250px 250px 0px 0px;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px #272727;
+}
+.flowers-3{
+    background-color: rgb(175, 236, 162);
+    border-radius: 250px 250px 0px 0px;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px #272727;
+}
+.Flower-name{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+/* flower-section-ended */
+
+/* service-section-started */
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(39, 39, 39, 0.05);
+    margin-left: 160px;
+    margin-right: 160px;
+    height: 5vh;
+    margin-top: 40px;
+    padding: 20px;   
+}
+.icon{
+    margin-left: 25px;
+    justify-content: center;
+}
+.discount{
+    display: flex;
+    padding: 30px;
+    margin-top: 50px;
+    background: #eee1e1;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+    width: 100%;
+}
+/* special-arrangements-secetion */
+.Special{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+.intro{
+    font-weight: 900;
+    text-align: justify;
+    text-align: center;
+}
+.Arrangements{
+   display: flex;
+   gap: 50px;
+   padding-left: 150px;
+   margin-top: 50px;
+
+}
+.arrangements-flower{
+    border: 2px solid black;
+    border-radius: 30%;
+    height: 200px;
+    width: 200px;
+
+}
+/* input-section */
+.input-background{
+    height: 50vh;
+    margin-top: 40px;
+    padding: 80px;
+    background-image: url("Images/back.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 0% 20% 0% 20%;
+    border: 2px solid black;
+    margin-bottom: 60px;
+}
+
+.id{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 450px;
+    border: 2px solid green;
+    border-radius: 30%;
+}
+.connected{
+    color: green;
+    margin-bottom: 10px;
+}
+/* deals-section */
+.deals{
+    background-image: url("/Images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.search-section{
+    display: flex;
+    justify-content: center;
+}
+.search-holder{
+    margin-top: 33px;
+    align-items: center;
+    width: 500px;
+    color: green;
+    font-weight: 300;
+}
+.End-section{
+    background-color: black;
+}
+.end{
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.795);
+    margin-top: 60px;
+    display: flex;
+    color: rgb(245, 244, 243);
+    justify-content: center;
+    display: inline;
+}
