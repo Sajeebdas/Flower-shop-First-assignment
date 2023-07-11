@@ -169,7 +169,7 @@ h4{
 }
 /* deals-section */
 .deals{
-    background-image: url("/Images/Rectangle\ 9.png");
+    background-image: url("./Images/Rectangle\ 9.png");
     background-repeat: no-repeat;
     background-position: center;
     width: 60%;
